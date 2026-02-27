@@ -11,6 +11,6 @@
     "tesseract.js": "^7.0.0"
   },
   "scripts": {
-    "build": "npm run build --prefix frontend"
+    "build": "npm install"
   }
 }
