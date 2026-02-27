@@ -1,0 +1,1133 @@
+
+> backend@1.0.0 dev
+> nodemon index.js
+
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Object.<anonymous> (d:\job portal\backend\index.js:147:8)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.19.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Object.<anonymous> (d:\job portal\backend\index.js:147:8)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.19.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Object.<anonymous> (d:\job portal\backend\index.js:147:8)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.19.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[32m[nodemon] restarting due to changes...[39m
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[32m[nodemon] restarting due to changes...[39m
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+🚀 Server running on port 5000
+✅ Connected to MongoDB Compass
+✅ Email Service is ready to take our messages
+⚠️ MongoDB Disconnected!
+✅ MongoDB Reconnected!
+⚠️ MongoDB Disconnected!
+✅ MongoDB Reconnected!
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+🚀 Server running on port 5000
+✅ Connected to MongoDB Compass
+✅ Email Service is ready to take our messages
+2026-02-21T07:25:14.721Z - GET /api/auth/me
+2026-02-21T07:25:15.246Z - GET /api/auth/me
+2026-02-21T07:25:15.304Z - GET /api/auth/me
+2026-02-21T07:25:15.330Z - GET /api/auth/me
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: KhYgLZQmu9vMs59fAAAD)
+2026-02-21T07:25:19.322Z - GET /api/jobs/categories
+2026-02-21T07:25:19.325Z - GET /api/jobs/top-companies
+2026-02-21T07:25:19.328Z - GET /api/jobs
+2026-02-21T07:25:19.331Z - GET /api/courses
+2026-02-21T07:25:19.334Z - GET /api/dashboard/seeker
+2026-02-21T07:25:19.754Z - GET /api/courses
+2026-02-21T07:25:19.803Z - GET /api/jobs/top-companies
+2026-02-21T07:25:19.805Z - GET /api/jobs/categories
+2026-02-21T07:25:19.856Z - GET /api/jobs
+2026-02-21T07:25:19.962Z - GET /api/dashboard/seeker
+2026-02-21T07:25:21.055Z - GET /api/auth/me
+2026-02-21T07:25:21.063Z - GET /api/jobs/applied
+2026-02-21T07:25:21.065Z - GET /api/dashboard/seeker
+2026-02-21T07:25:21.100Z - GET /api/jobs
+2026-02-21T07:25:21.137Z - GET /api/auth/me
+2026-02-21T07:25:21.218Z - GET /api/jobs/applied
+2026-02-21T07:25:21.275Z - GET /api/dashboard/seeker
+2026-02-21T07:25:21.308Z - GET /api/jobs
+[DEBUG] POST /api/ats/run-engine Body keys: [ 'resumeUrl', 'targetRole' ]
+2026-02-21T07:25:32.896Z - POST /api/ats/run-engine
+[ATS Controller] Starting analysis for: https://ppyuyohomndnsyfpoxuh.supabase.co/storage/v1/object/public/uploads/resumes/1771646473705_autoCV.pdf (Role: mern developer)
+[DocumentParser] Downloading file into buffer from: https://ppyuyohomndnsyfpoxuh.supabase.co/storage/v1/object/public/uploads/resumes/1771646473705_autoCV.pdf
+[DocumentParser] Downloaded 136104 bytes
+[DocumentParser] Parsing as PDF...
+[DocumentParser] Extraction successful. Text length: 1748
+[ATS Controller Error]: SyntaxError: Invalid regular expression: /\bc++\b/g: Nothing to repeat
+    at new RegExp (<anonymous>)
+    at d:\job portal\backend\services\localAtsEngineService.js:44:23
+    at Array.forEach (<anonymous>)
+    at extractSkills (d:\job portal\backend\services\localAtsEngineService.js:42:29)
+    at exports.runLocalATSEngine (d:\job portal\backend\services\localAtsEngineService.js:106:29)
+    at exports.runEngine (d:\job portal\backend\controllers\atsController.js:22:32)
+🔥 Socket disconnected: KhYgLZQmu9vMs59fAAAD
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+🚀 Server running on port 5000
+✅ Connected to MongoDB Compass
+✅ Email Service is ready to take our messages
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  override existing env vars with { override: true }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+🚀 Server running on port 5000
+✅ Connected to MongoDB Compass
+✅ Email Service is ready to take our messages
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+✅ .env file loaded successfully
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Object.<anonymous> (d:\job portal\backend\index.js:147:8)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.19.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+🚀 Server running on port 5000
+✅ Connected to MongoDB Compass
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Object.<anonymous> (d:\job portal\backend\index.js:147:8)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.19.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+🚀 Server running on port 5000
+✅ Connected to MongoDB Compass
+✅ Email Service is ready to take our messages
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Object.<anonymous> (d:\job portal\backend\index.js:147:8)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.19.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+🚀 Server running on port 5000
+✅ Connected to MongoDB Compass
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: Hv06cXOQC_f5J2JJAAAC)
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: ho0zAmr_6jzQzyiGAAAD)
+✅ Email Service is ready to take our messages
+2026-02-21T08:32:37.435Z - GET /api/jobs/categories
+2026-02-21T08:32:37.485Z - GET /api/courses
+2026-02-21T08:32:37.488Z - GET /api/dashboard/seeker
+2026-02-21T08:32:37.489Z - GET /api/jobs/top-companies
+2026-02-21T08:32:37.492Z - GET /api/jobs
+2026-02-21T08:32:37.935Z - GET /api/jobs/categories
+2026-02-21T08:32:37.937Z - GET /api/courses
+2026-02-21T08:32:38.139Z - GET /api/jobs/top-companies
+2026-02-21T08:32:38.140Z - GET /api/dashboard/seeker
+2026-02-21T08:32:38.174Z - GET /api/jobs
+2026-02-21T08:32:38.832Z - GET /api/jobs?category=Non-IT
+2026-02-21T08:32:38.835Z - GET /api/jobs/applied
+2026-02-21T08:32:38.836Z - GET /api/auth/me
+2026-02-21T08:32:38.890Z - GET /api/jobs?category=Non-IT
+2026-02-21T08:32:38.897Z - GET /api/auth/me
+2026-02-21T08:32:38.898Z - GET /api/jobs/applied
+🔥 Socket disconnected: ho0zAmr_6jzQzyiGAAAD
+2026-02-21T08:32:43.320Z - GET /api/auth/me
+2026-02-21T08:32:43.339Z - GET /api/auth/me
+2026-02-21T08:32:43.419Z - GET /api/jobs?category=Non-IT
+2026-02-21T08:32:43.420Z - GET /api/jobs/applied
+2026-02-21T08:32:43.466Z - GET /api/auth/me
+2026-02-21T08:32:43.533Z - GET /api/jobs?category=Non-IT
+2026-02-21T08:32:43.554Z - GET /api/jobs/applied
+2026-02-21T08:32:43.563Z - GET /api/auth/me
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: KGgCQS5g_7EELQwdAAAH)
+🔥 Socket disconnected: KGgCQS5g_7EELQwdAAAH
+2026-02-21T08:33:01.035Z - GET /api/auth/me
+2026-02-21T08:33:01.051Z - GET /api/auth/me
+2026-02-21T08:33:01.136Z - GET /api/jobs/categories
+2026-02-21T08:33:01.139Z - GET /api/jobs/top-companies
+2026-02-21T08:33:01.147Z - GET /api/courses
+2026-02-21T08:33:01.150Z - GET /api/jobs
+2026-02-21T08:33:01.155Z - GET /api/dashboard/seeker
+2026-02-21T08:33:01.290Z - GET /api/jobs/categories
+2026-02-21T08:33:01.290Z - GET /api/jobs/top-companies
+2026-02-21T08:33:01.291Z - GET /api/courses
+2026-02-21T08:33:01.321Z - GET /api/jobs
+2026-02-21T08:33:01.347Z - GET /api/dashboard/seeker
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: GpRjIBzwVvDBvQi8AAAL)
+🔥 Socket disconnected: GpRjIBzwVvDBvQi8AAAL
+🔥 Socket disconnected: Hv06cXOQC_f5J2JJAAAC
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: 3L1QGsApV2dBqcVnAAAN)
+🔥 Socket disconnected: 3L1QGsApV2dBqcVnAAAN
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: 5IFEIvsRgEAkOxe9AAAP)
+2026-02-21T08:34:20.787Z - GET /api/auth/me
+2026-02-21T08:34:20.860Z - GET /api/auth/me
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: l9lyr419LVA_cNhoAAAS)
+2026-02-21T08:34:26.863Z - GET /api/jobs/categories
+2026-02-21T08:34:26.863Z - GET /api/jobs/top-companies
+2026-02-21T08:34:26.864Z - GET /api/courses
+2026-02-21T08:34:26.864Z - GET /api/jobs
+2026-02-21T08:34:26.865Z - GET /api/jobs/categories
+2026-02-21T08:34:26.888Z - GET /api/dashboard/seeker
+2026-02-21T08:34:27.050Z - GET /api/jobs/top-companies
+2026-02-21T08:34:27.057Z - GET /api/courses
+2026-02-21T08:34:27.058Z - GET /api/jobs
+2026-02-21T08:34:27.080Z - GET /api/dashboard/seeker
+🔥 Socket disconnected: 5IFEIvsRgEAkOxe9AAAP
+2026-02-21T08:46:56.378Z - GET /api/auth/me
+2026-02-21T08:46:56.474Z - GET /api/auth/me
+2026-02-21T08:46:56.769Z - GET /api/jobs
+2026-02-21T08:46:56.769Z - GET /api/jobs/applied
+2026-02-21T08:46:56.770Z - GET /api/auth/me
+2026-02-21T08:46:56.784Z - GET /api/auth/me
+2026-02-21T08:46:56.819Z - GET /api/jobs
+2026-02-21T08:46:56.830Z - GET /api/jobs/applied
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: Qu78SCEFecaEvVu4AAAW)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Object.<anonymous> (d:\job portal\backend\index.js:147:8)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.19.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  override existing env vars with { override: true }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Object.<anonymous> (d:\job portal\backend\index.js:147:8)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.19.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+🚀 Server running on port 5000
+✅ Connected to MongoDB Compass
+✅ Email Service is ready to take our messages
+2026-02-21T09:22:05.360Z - GET /
+2026-02-21T09:22:06.927Z - GET /favicon.ico
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Object.<anonymous> (d:\job portal\backend\index.js:147:8)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.19.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  override existing env vars with { override: true }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+🚀 Server running on port 5000
+✅ Connected to MongoDB Compass
+✅ Email Service is ready to take our messages
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+✅ Server active on port 5000
+✅ Connected to MongoDB Compass
+✅ Email Service is ready to take our messages
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+⚠️ Port 5000 is busy. Trying port 5001...
+✅ Connected to MongoDB Compass
+[32m[nodemon] restarting due to changes...[39m
+✅ Server active on port 5000
+✅ Server active on port 5001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+⚠️ Port 5000 is busy. Trying port 5001...
+✅ Connected to MongoDB Compass
+✅ Server active on port 5000
+✅ Server active on port 5001
+❌ Email Service Error: Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20) {
+  errno: -4077,
+  code: 'ESOCKET',
+  syscall: 'read',
+  command: 'CONN'
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  override existing env vars with { override: true }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+✅ Server active on port 5000
+✅ Connected to MongoDB Compass
+✅ Email Service is ready to take our messages
+2026-02-21T10:19:16.214Z - GET /api/auth/me
+2026-02-21T10:19:16.632Z - GET /api/auth/me
+2026-02-21T10:19:16.849Z - GET /api/auth/me
+2026-02-21T10:19:16.851Z - GET /api/jobs/applied
+2026-02-21T10:19:16.853Z - GET /api/jobs
+2026-02-21T10:19:16.855Z - GET /api/dashboard/seeker
+2026-02-21T10:19:16.938Z - GET /api/auth/me
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: iS7tofF4HEdoHWVHAAAC)
+2026-02-21T10:19:17.168Z - GET /api/jobs/applied
+2026-02-21T10:19:17.195Z - GET /api/jobs
+2026-02-21T10:19:17.254Z - GET /api/dashboard/seeker
+2026-02-21T10:21:36.173Z - GET /api/chat
+2026-02-21T10:21:36.602Z - GET /api/chat
+2026-02-21T10:30:07.257Z - GET /api/auth/me
+2026-02-21T10:30:07.469Z - GET /api/auth/me
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: qfcYNIEwB3_cBjrTAAAF)
+2026-02-21T10:30:11.519Z - GET /api/jobs/categories
+2026-02-21T10:30:11.520Z - GET /api/jobs/top-companies
+2026-02-21T10:30:11.521Z - GET /api/courses
+2026-02-21T10:30:11.522Z - GET /api/jobs
+2026-02-21T10:30:11.523Z - GET /api/dashboard/seeker
+2026-02-21T10:30:11.766Z - GET /api/courses
+2026-02-21T10:30:11.795Z - GET /api/jobs/categories
+2026-02-21T10:30:11.796Z - GET /api/jobs/top-companies
+2026-02-21T10:30:11.802Z - GET /api/jobs
+2026-02-21T10:30:11.862Z - GET /api/dashboard/seeker
+2026-02-21T10:30:13.745Z - GET /api/chat
+2026-02-21T10:30:13.771Z - GET /api/chat
+2026-02-21T10:30:17.411Z - GET /api/jobs?category=Non-IT
+2026-02-21T10:30:17.412Z - GET /api/auth/me
+2026-02-21T10:30:17.414Z - GET /api/jobs/applied
+2026-02-21T10:30:17.444Z - GET /api/jobs?category=Non-IT
+2026-02-21T10:30:17.453Z - GET /api/auth/me
+2026-02-21T10:30:17.461Z - GET /api/jobs/applied
+2026-02-21T10:30:18.873Z - GET /api/jobs/applied
+2026-02-21T10:30:18.875Z - GET /api/auth/me
+2026-02-21T10:30:18.876Z - GET /api/jobs
+2026-02-21T10:30:18.933Z - GET /api/auth/me
+2026-02-21T10:30:18.941Z - GET /api/jobs/applied
+2026-02-21T10:30:18.953Z - GET /api/jobs
+2026-02-21T10:30:21.125Z - GET /api/companies?type=&industry=&location=&search=
+2026-02-21T10:30:21.152Z - GET /api/companies?type=&industry=&location=&search=
+2026-02-21T10:30:22.169Z - GET /api/courses
+2026-02-21T10:30:22.172Z - GET /api/courses/my-enrollments
+2026-02-21T10:30:22.184Z - GET /api/courses
+2026-02-21T10:30:22.184Z - GET /api/courses/my-enrollments
+2026-02-21T10:30:24.043Z - GET /api/companies?type=&industry=&location=&search=
+2026-02-21T10:30:24.053Z - GET /api/companies?type=&industry=&location=&search=
+2026-02-21T10:30:31.509Z - GET /api/companies/6991853e53d9a2dcbf6cce35
+2026-02-21T10:30:31.510Z - GET /api/jobs/company/6991853e53d9a2dcbf6cce35
+2026-02-21T10:30:31.525Z - GET /api/companies/6991853e53d9a2dcbf6cce35
+2026-02-21T10:30:31.526Z - GET /api/jobs/company/6991853e53d9a2dcbf6cce35
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: IzLoSpdJkAmRMUwuAAAI)
+🔥 Socket disconnected: IzLoSpdJkAmRMUwuAAAI
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+⚠️ Port 5000 is busy. Trying port 5001...
+✅ Connected to MongoDB Compass
+⚠️ Port 5001 is busy. Trying port 5002...
+✅ Server active on port 5000
+✅ Server active on port 5001
+✅ Server active on port 5002
+✅ Email Service is ready to take our messages
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  override existing env vars with { override: true }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[32m[nodemon] restarting due to changes...[39m
+⚠️ Port 5000 is busy. Trying port 5001...
+[32m[nodemon] restarting due to changes...[39m
+✅ Connected to MongoDB Compass
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+✅ .env file loaded successfully
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+⚠️ Port 5000 is busy. Trying port 5001...
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+⚠️ Port 5000 is busy. Trying port 5001...
+✅ Connected to MongoDB Compass
+✅ Server active on port 5000
+✅ Server active on port 5001
+✅ Email Service is ready to take our messages
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+⚠️ Port 5000 is busy. Trying port 5001...
+✅ Connected to MongoDB Compass
+[32m[nodemon] restarting due to changes...[39m
+✅ Server active on port 5000
+✅ Server active on port 5001
+[32m[nodemon] starting `node index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+⚠️ Port 5000 is busy. Trying port 5001...
+✅ Connected to MongoDB Compass
+✅ Server active on port 5000
+✅ Server active on port 5001
+❌ Email Service Error: Error: Client network socket disconnected before secure TLS connection was established
+    at TLSSocket.onConnectEnd (node:_tls_wrap:1730:19)
+    at TLSSocket.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ESOCKET',
+  path: undefined,
+  host: '192.178.211.108',
+  port: 465,
+  localAddress: undefined,
+  command: 'CONN'
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+✅ Server active on port 5000
+✅ Connected to MongoDB Compass
+✅ Email Service is ready to take our messages
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: MVyloEpI9-Cjnh_tAAAC)
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: upbzsnWoBH7ajKTVAAAD)
+2026-02-21T11:10:28.221Z - GET /api/chat
+2026-02-21T11:10:28.225Z - GET /api/chat-module/profile/me
+2026-02-21T11:10:28.318Z - GET /api/chat-module/profile/me
+2026-02-21T11:10:28.362Z - GET /api/chat
+2026-02-21T11:10:28.370Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:10:28.552Z - GET /api/chat
+2026-02-21T11:10:28.675Z - GET /api/chat-module/profile/me
+2026-02-21T11:10:28.714Z - GET /api/chat
+2026-02-21T11:10:28.807Z - GET /api/chat-module/profile/me
+2026-02-21T11:10:29.120Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:10:29.169Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:10:29.421Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:11:25.044Z - GET /api/chat
+2026-02-21T11:11:25.077Z - GET /api/chat
+2026-02-21T11:11:25.084Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:11:25.188Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+🔥 Socket disconnected: upbzsnWoBH7ajKTVAAAD
+🔥 Socket disconnected: MVyloEpI9-Cjnh_tAAAC
+⚠️ MongoDB Disconnected!
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: 4o1uTzVuGhO4d8e_AAAF)
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: h8BKD1oQB9t_JiSPAAAH)
+🔥 Socket disconnected: 4o1uTzVuGhO4d8e_AAAF
+🔥 Socket disconnected: h8BKD1oQB9t_JiSPAAAH
+✅ MongoDB Reconnected!
+2026-02-21T11:24:44.700Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:24:44.815Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: qRSvJziEgczaU8jFAAAK)
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: XJ8otmWYlszLXizQAAAM)
+🔥 Socket disconnected: XJ8otmWYlszLXizQAAAM
+2026-02-21T11:24:55.145Z - GET /api/auth/google/jobseeker
+2026-02-21T11:25:03.623Z - GET /api/auth/google/callback?state=role%3Dseeker&code=4%2F0AfrIepATSGYYlUHHsjlxpOHSp7uZxEmd1Sd9der4MkZvDD6ILSTmo2rGzr-lycC340dR5g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none
+--- Passport Google Handshake Start ---
+Profile ID: 100232395444835389255
+Profile Email: ceitvimalanandh27@gmail.com
+[Passport] Google Strategy Callback. State: role=seeker
+[Passport] Authenticating user with role: seeker
+[Passport] Found existing user [698f28cdbe335b21f1f81df5] with role [seeker]
+[AuthRoutes] Redirecting successful login for ceitvimalanandh27@gmail.com (Role: seeker)
+2026-02-21T11:25:06.598Z - GET /api/auth/me
+2026-02-21T11:25:06.621Z - GET /api/auth/me
+2026-02-21T11:25:06.663Z - GET /api/chat-module/profile/me
+2026-02-21T11:25:06.664Z - GET /api/companies/my-company
+2026-02-21T11:25:06.666Z - GET /api/auth/me
+2026-02-21T11:25:06.723Z - GET /api/companies/my-company
+2026-02-21T11:25:06.725Z - GET /api/chat-module/profile/me
+2026-02-21T11:25:06.744Z - GET /api/auth/me
+2026-02-21T11:25:06.745Z - GET /api/companies/my-company
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: EvosisvL382tmiu5AAAQ)
+2026-02-21T11:25:06.763Z - GET /api/chat-module/profile/me
+2026-02-21T11:25:06.769Z - GET /api/auth/me
+🔥 Socket disconnected: EvosisvL382tmiu5AAAQ
+2026-02-21T11:25:06.937Z - GET /api/auth/me
+2026-02-21T11:25:06.942Z - GET /api/chat-module/profile/me
+2026-02-21T11:25:06.987Z - GET /api/auth/me
+2026-02-21T11:25:06.995Z - GET /api/chat-module/profile/me
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: eK7r2339egapKfG4AAAT)
+2026-02-21T11:25:07.174Z - GET /api/jobs/categories
+🔥 Socket disconnected: eK7r2339egapKfG4AAAT
+2026-02-21T11:25:07.179Z - GET /api/jobs/top-companies
+2026-02-21T11:25:07.180Z - GET /api/courses
+2026-02-21T11:25:07.184Z - GET /api/jobs
+2026-02-21T11:25:07.186Z - GET /api/dashboard/seeker
+2026-02-21T11:25:07.244Z - GET /api/chat-module/profile/me
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: WW92XaKo1-j8AH38AAAV)
+2026-02-21T11:25:07.454Z - GET /api/courses
+2026-02-21T11:25:07.487Z - GET /api/jobs/top-companies
+2026-02-21T11:25:07.492Z - GET /api/jobs/categories
+2026-02-21T11:25:07.498Z - GET /api/jobs
+2026-02-21T11:25:07.584Z - GET /api/dashboard/seeker
+2026-02-21T11:25:13.709Z - GET /api/chat-module/check-username?u=vimala
+2026-02-21T11:25:14.794Z - GET /api/chat-module/check-username?u=vimalananh
+2026-02-21T11:25:15.564Z - GET /api/chat-module/check-username?u=vimalanan
+2026-02-21T11:25:17.254Z - GET /api/chat-module/check-username?u=vimalanandh
+2026-02-21T11:25:18.525Z - GET /api/chat-module/check-username?u=vimalanandh_
+2026-02-21T11:25:19.173Z - GET /api/chat-module/check-username?u=vimalanandh_2
+2026-02-21T11:25:19.713Z - GET /api/chat-module/check-username?u=vimalanandh_2
+2026-02-21T11:25:21.515Z - GET /api/chat-module/check-username?u=vimalanandh_21
+[DEBUG] POST /api/chat-module/profile/setup Body keys: [ 'chat_username', 'displayName' ]
+2026-02-21T11:25:23.082Z - POST /api/chat-module/profile/setup
+2026-02-21T11:25:23.202Z - GET /api/chat-module/conversations
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: oSGPvNmlhhQCdj73AAAX)
+[CM] Socket oSGPvNmlhhQCdj73AAAX joined room "vimalanandh_21"
+2026-02-21T11:25:28.951Z - GET /api/jobs/categories
+2026-02-21T11:25:28.952Z - GET /api/jobs/top-companies
+2026-02-21T11:25:28.953Z - GET /api/courses
+2026-02-21T11:25:28.954Z - GET /api/jobs
+2026-02-21T11:25:28.956Z - GET /api/dashboard/seeker
+2026-02-21T11:25:29.012Z - GET /api/jobs/categories
+2026-02-21T11:25:29.013Z - GET /api/jobs/top-companies
+2026-02-21T11:25:29.014Z - GET /api/courses
+2026-02-21T11:25:29.043Z - GET /api/jobs
+2026-02-21T11:25:29.058Z - GET /api/dashboard/seeker
+2026-02-21T11:25:30.364Z - GET /api/chat
+2026-02-21T11:25:30.386Z - GET /api/chat
+2026-02-21T11:25:30.390Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:25:30.431Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+🔥 Socket disconnected: WW92XaKo1-j8AH38AAAV
+🔥 Socket disconnected: oSGPvNmlhhQCdj73AAAX
+2026-02-21T11:25:39.209Z - GET /api/auth/me
+2026-02-21T11:25:39.225Z - GET /api/auth/me
+2026-02-21T11:25:39.239Z - GET /api/auth/me
+2026-02-21T11:25:39.256Z - GET /api/auth/me
+2026-02-21T11:25:39.410Z - GET /api/chat
+2026-02-21T11:25:39.414Z - GET /api/chat-module/profile/me
+2026-02-21T11:25:39.450Z - GET /api/chat
+2026-02-21T11:25:39.451Z - GET /api/chat-module/profile/me
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: KCF2Q7fgenwHo6XvAAAa)
+2026-02-21T11:25:39.462Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:25:39.510Z - GET /api/chat-module/conversations
+2026-02-21T11:25:39.540Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: 1S-Ihh7rnJlq-LyKAAAc)
+[CM] Socket 1S-Ihh7rnJlq-LyKAAAc joined room "vimalanandh_21"
+2026-02-21T11:25:43.354Z - PUT /api/chat/69998f87d88d88b5889b1853/seen
+2026-02-21T11:25:46.187Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:25:54.061Z - GET /api/chat-module/search?q=vi
+2026-02-21T11:25:55.490Z - GET /api/chat-module/search?q=vims
+2026-02-21T11:25:56.860Z - GET /api/chat-module/search?q=vima
+2026-02-21T11:25:58.527Z - GET /api/chat-module/search?q=vimal
+2026-02-21T11:26:00.342Z - GET /api/chat-module/search?q=vimalanandh
+2026-02-21T11:26:05.207Z - GET /api/chat-module/search?q=%40vimalanandh
+2026-02-21T11:26:07.640Z - GET /api/chat-module/search?q=vimalanandh
+2026-02-21T11:26:16.077Z - GET /api/jobs/recruiter/applicants
+2026-02-21T11:26:16.078Z - GET /api/jobs/recruiter/jobs
+[JobRoutes] Fetching jobs for recruiter: 698f5f06705927d8c25b3b53
+2026-02-21T11:26:16.153Z - GET /api/jobs/recruiter/applicants
+2026-02-21T11:26:16.154Z - GET /api/jobs/recruiter/jobs
+[JobRoutes] Fetching jobs for recruiter: 698f5f06705927d8c25b3b53
+2026-02-21T11:26:24.097Z - GET /api/chat-module/check-username?u=vimi
+2026-02-21T11:26:26.871Z - GET /api/chat-module/check-username?u=vimicomapy
+2026-02-21T11:26:28.706Z - GET /api/chat-module/check-username?u=vimicomapy1
+[DEBUG] POST /api/chat-module/profile/setup Body keys: [ 'chat_username', 'displayName' ]
+2026-02-21T11:26:30.399Z - POST /api/chat-module/profile/setup
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: wDBFk4p09DAgv5dpAAAe)
+2026-02-21T11:26:30.461Z - GET /api/chat-module/conversations
+[CM] Socket wDBFk4p09DAgv5dpAAAe joined room "vimicomapy1"
+2026-02-21T11:26:34.840Z - GET /api/chat-module/search?q=vimal
+2026-02-21T11:26:38.104Z - GET /api/chat-module/search?q=vimalanan
+[DEBUG] POST /api/chat-module/conversations/start Body keys: [ 'target_username' ]
+2026-02-21T11:26:39.411Z - POST /api/chat-module/conversations/start
+2026-02-21T11:26:39.470Z - GET /api/chat-module/conversations/6999966f61675138e8427e9b/messages
+2026-02-21T11:26:39.492Z - PUT /api/chat-module/conversations/6999966f61675138e8427e9b/seen
+[DEBUG] POST /api/chat-module/conversations/6999966f61675138e8427e9b/messages Body keys: [ 'content' ]
+2026-02-21T11:26:45.258Z - POST /api/chat-module/conversations/6999966f61675138e8427e9b/messages
+🔥 Socket disconnected: KCF2Q7fgenwHo6XvAAAa
+🔥 Socket disconnected: 1S-Ihh7rnJlq-LyKAAAc
+2026-02-21T11:26:52.438Z - GET /api/auth/me
+2026-02-21T11:26:52.466Z - GET /api/auth/me
+2026-02-21T11:26:52.486Z - GET /api/auth/me
+2026-02-21T11:26:52.509Z - GET /api/auth/me
+2026-02-21T11:26:52.875Z - GET /api/chat-module/profile/me
+2026-02-21T11:26:52.887Z - GET /api/chat-module/profile/me
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: iguhDYLpsubvyTpTAAAi)
+2026-02-21T11:26:52.923Z - GET /api/chat-module/conversations
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: Re9UKzU_IgHDDGg3AAAj)
+[CM] Socket Re9UKzU_IgHDDGg3AAAj joined room "vimalanandh_21"
+2026-02-21T11:26:55.025Z - GET /api/chat-module/conversations/6999966f61675138e8427e9b/messages
+2026-02-21T11:26:55.066Z - PUT /api/chat-module/conversations/6999966f61675138e8427e9b/seen
+[DEBUG] POST /api/chat-module/conversations/6999966f61675138e8427e9b/messages Body keys: [ 'content' ]
+2026-02-21T11:27:07.627Z - POST /api/chat-module/conversations/6999966f61675138e8427e9b/messages
+2026-02-21T11:27:07.772Z - PUT /api/chat-module/conversations/6999966f61675138e8427e9b/seen
+2026-02-21T11:27:07.777Z - PUT /api/chat-module/conversations/6999966f61675138e8427e9b/seen
+[DEBUG] POST /api/chat-module/conversations/6999966f61675138e8427e9b/messages Body keys: [ 'content' ]
+2026-02-21T11:27:14.650Z - POST /api/chat-module/conversations/6999966f61675138e8427e9b/messages
+2026-02-21T11:27:14.715Z - PUT /api/chat-module/conversations/6999966f61675138e8427e9b/seen
+2026-02-21T11:27:14.719Z - PUT /api/chat-module/conversations/6999966f61675138e8427e9b/seen
+[DEBUG] POST /api/chat-module/conversations/6999966f61675138e8427e9b/messages Body keys: [ 'content' ]
+2026-02-21T11:27:22.006Z - POST /api/chat-module/conversations/6999966f61675138e8427e9b/messages
+2026-02-21T11:27:22.064Z - PUT /api/chat-module/conversations/6999966f61675138e8427e9b/seen
+2026-02-21T11:27:22.070Z - PUT /api/chat-module/conversations/6999966f61675138e8427e9b/seen
+[DEBUG] POST /api/chat-module/conversations/6999966f61675138e8427e9b/messages Body keys: [ 'content' ]
+2026-02-21T11:27:28.966Z - POST /api/chat-module/conversations/6999966f61675138e8427e9b/messages
+2026-02-21T11:27:29.026Z - PUT /api/chat-module/conversations/6999966f61675138e8427e9b/seen
+2026-02-21T11:27:29.029Z - PUT /api/chat-module/conversations/6999966f61675138e8427e9b/seen
+2026-02-21T11:29:20.771Z - GET /api/jobs/recruiter/applicants
+2026-02-21T11:29:21.360Z - GET /api/jobs/recruiter/jobs
+[JobRoutes] Fetching jobs for recruiter: 698f5f06705927d8c25b3b53
+2026-02-21T11:29:22.117Z - GET /api/jobs/recruiter/jobs
+2026-02-21T11:29:22.126Z - GET /api/jobs/recruiter/applicants
+[JobRoutes] Fetching jobs for recruiter: 698f5f06705927d8c25b3b53
+2026-02-21T11:29:23.785Z - GET /api/chat
+2026-02-21T11:29:24.846Z - GET /api/chat
+2026-02-21T11:29:24.847Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+🔥 Socket disconnected: wDBFk4p09DAgv5dpAAAe
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: TQHzesMLGz5KILBVAAAl)
+[CM] Socket TQHzesMLGz5KILBVAAAl joined room "vimicomapy1"
+2026-02-21T11:29:25.157Z - GET /api/chat-module/profile/me
+2026-02-21T11:29:25.159Z - GET /api/chat-module/conversations
+2026-02-21T11:29:25.199Z - GET /api/chat
+2026-02-21T11:29:25.200Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:29:25.344Z - GET /api/chat
+2026-02-21T11:29:25.348Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:29:25.429Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+🔥 Socket disconnected: Re9UKzU_IgHDDGg3AAAj
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: SwZ68MjiWW_LNIaNAAAn)
+2026-02-21T11:29:27.256Z - GET /api/chat-module/profile/me
+2026-02-21T11:29:27.258Z - GET /api/chat-module/conversations
+[CM] Socket SwZ68MjiWW_LNIaNAAAn joined room "vimalanandh_21"
+[DEBUG] POST /api/chat/69998fbdd88d88b5889b18a0/message Body keys: [ 'content' ]
+2026-02-21T11:29:31.998Z - POST /api/chat/69998fbdd88d88b5889b18a0/message
+🔥 Socket disconnected: iguhDYLpsubvyTpTAAAi
+🔥 Socket disconnected: SwZ68MjiWW_LNIaNAAAn
+2026-02-21T11:29:36.449Z - GET /api/auth/me
+2026-02-21T11:29:36.471Z - GET /api/auth/me
+2026-02-21T11:29:36.482Z - GET /api/auth/me
+2026-02-21T11:29:36.497Z - GET /api/auth/me
+2026-02-21T11:29:38.256Z - GET /api/chat-module/profile/me
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: ftr5m0HCtwMzT42oAAAq)
+2026-02-21T11:29:38.273Z - GET /api/chat-module/profile/me
+2026-02-21T11:29:38.362Z - GET /api/chat-module/conversations
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: _xPznKG8ODMzszZlAAAs)
+[CM] Socket _xPznKG8ODMzszZlAAAs joined room "vimalanandh_21"
+2026-02-21T11:29:42.912Z - GET /api/chat
+2026-02-21T11:29:42.954Z - GET /api/chat
+2026-02-21T11:29:42.975Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:29:43.041Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:32:21.238Z - GET /api/jobs/recruiter/applicants
+2026-02-21T11:32:21.250Z - GET /api/jobs/recruiter/jobs
+[JobRoutes] Fetching jobs for recruiter: 698f5f06705927d8c25b3b53
+2026-02-21T11:32:21.454Z - GET /api/jobs/recruiter/jobs
+2026-02-21T11:32:21.455Z - GET /api/jobs/recruiter/applicants
+[JobRoutes] Fetching jobs for recruiter: 698f5f06705927d8c25b3b53
+2026-02-21T11:32:23.927Z - GET /api/chat
+2026-02-21T11:32:24.040Z - GET /api/chat
+2026-02-21T11:32:24.086Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:32:24.128Z - PUT /api/chat/69998fbdd88d88b5889b18a0/seen
+2026-02-21T11:32:33.985Z - GET /api/jobs/recruiter/applicants
+2026-02-21T11:32:33.987Z - GET /api/jobs/recruiter/jobs
+[JobRoutes] Fetching jobs for recruiter: 698f5f06705927d8c25b3b53
+2026-02-21T11:32:34.026Z - GET /api/jobs/recruiter/applicants
+2026-02-21T11:32:34.027Z - GET /api/jobs/recruiter/jobs
+[JobRoutes] Fetching jobs for recruiter: 698f5f06705927d8c25b3b53
+🔥 Socket disconnected: qRSvJziEgczaU8jFAAAK
+🔥 Socket disconnected: TQHzesMLGz5KILBVAAAl
+2026-02-21T11:34:08.862Z - GET /api/auth/me
+2026-02-21T11:34:09.003Z - GET /api/auth/me
+2026-02-21T11:34:09.026Z - GET /api/auth/me
+2026-02-21T11:34:09.049Z - GET /api/auth/me
+2026-02-21T11:34:09.275Z - GET /api/chat-module/profile/me
+2026-02-21T11:34:09.280Z - GET /api/jobs/recruiter/jobs
+2026-02-21T11:34:09.282Z - GET /api/jobs/recruiter/applicants
+2026-02-21T11:34:09.284Z - GET /api/companies/my-company
+[JobRoutes] Fetching jobs for recruiter: 698f5f06705927d8c25b3b53
+2026-02-21T11:34:09.374Z - GET /api/chat-module/profile/me
+2026-02-21T11:34:09.376Z - GET /api/companies/my-company
+2026-02-21T11:34:09.428Z - GET /api/jobs/recruiter/jobs
+2026-02-21T11:34:09.431Z - GET /api/jobs/recruiter/applicants
+[JobRoutes] Fetching jobs for recruiter: 698f5f06705927d8c25b3b53
+2026-02-21T11:34:09.521Z - GET /api/companies/my-company
+2026-02-21T11:34:09.524Z - GET /api/chat-module/profile/me
+2026-02-21T11:34:09.592Z - GET /api/chat-module/conversations
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: i9AeBVXBBWbDj2Q8AAAx)
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: sNQYUBsLaP-JGJRXAAAy)
+[CM] Socket sNQYUBsLaP-JGJRXAAAy joined room "vimicomapy1"
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+✅ Server active on port 5000
+✅ Connected to MongoDB Compass
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: tS2VnDKQgUc2UaBQAAAD)
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: G_ohysx49t8K2TspAAAF)
+[CM] Socket tS2VnDKQgUc2UaBQAAAD joined room "vimicomapy1"
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: jznlQnSmDdI_q4zmAAAG)
+[CM] Socket G_ohysx49t8K2TspAAAF joined room "vimalanandh_21"
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: JWIEfwRqemg1UzS9AAAH)
+❌ Email Service Error: Error: Connection closed
+    at SMTPConnection.<anonymous> (d:\job portal\backend\node_modules\nodemailer\lib\smtp-transport\index.js:360:33)
+    at Object.onceWrapper (node:events:638:28)
+    at SMTPConnection.emit (node:events:524:28)
+    at SMTPConnection._destroy (d:\job portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:899:14)
+    at SMTPConnection._onClose (d:\job portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:868:14)
+    at SMTPConnection._onSocketClose (d:\job portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:197:42)
+    at Object.onceWrapper (node:events:639:26)
+    at TLSSocket.emit (node:events:536:35)
+    at node:net:343:12
+    at TCP.done (node:_tls_wrap:648:7)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[32m[nodemon] restarting due to changes...[39m
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[32m[nodemon] restarting due to changes...[39m
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+✅ Server active on port 5000
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+⚠️ Port 5000 is busy. Trying port 5001...
+✅ Connected to MongoDB Compass
+⚠️ Port 5001 is busy. Trying port 5002...
+✅ Server active on port 5000
+✅ Server active on port 5001
+✅ Server active on port 5002
+✅ Email Service is ready to take our messages
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+✅ Server active on port 5000
+✅ Connected to MongoDB Compass
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: OPZgyt9-FJvzI2kgAAAB)
+[CM] Socket OPZgyt9-FJvzI2kgAAAB joined room "vimicomapy1"
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: k0mLbRidFgOPAt9kAAAD)
+🔥 Socket disconnected: OPZgyt9-FJvzI2kgAAAB
+🔥 Socket disconnected: k0mLbRidFgOPAt9kAAAD
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: X3-Hwq7bDaaTNka4AAAG)
+⚡ User authenticated: 698f28cdbe335b21f1f81df5 (Socket: RynsVDgpy413QhyfAAAH)
+[CM] Socket RynsVDgpy413QhyfAAAH joined room "vimalanandh_21"
+2026-02-21T11:36:37.584Z - GET /api/auth/me
+2026-02-21T11:36:37.714Z - GET /api/auth/me
+2026-02-21T11:36:37.737Z - GET /api/auth/me
+2026-02-21T11:36:37.766Z - GET /api/auth/me
+2026-02-21T11:36:37.907Z - GET /api/companies/my-company
+2026-02-21T11:36:37.910Z - GET /api/employer/dashboard-stats
+2026-02-21T11:36:37.912Z - GET /api/companies/my-company
+2026-02-21T11:36:37.914Z - GET /api/chat-module/profile/me
+2026-02-21T11:36:37.962Z - GET /api/companies/my-company
+2026-02-21T11:36:38.247Z - GET /api/companies/my-company
+2026-02-21T11:36:38.251Z - GET /api/chat-module/profile/me
+2026-02-21T11:36:38.286Z - GET /api/chat-module/conversations
+2026-02-21T11:36:38.289Z - GET /api/companies/my-company
+2026-02-21T11:36:38.317Z - GET /api/employer/dashboard-stats
+2026-02-21T11:36:38.351Z - GET /api/chat-module/profile/me
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: 9JDfkEEkDRGtuWFnAAAM)
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: MrdjK7P3nh8f8HQkAAAN)
+[CM] Socket MrdjK7P3nh8f8HQkAAAN joined room "vimicomapy1"
+2026-02-21T11:36:41.675Z - GET /api/employer/dashboard-stats
+2026-02-21T11:36:41.685Z - GET /api/companies/my-company
+2026-02-21T11:36:41.724Z - GET /api/companies/my-company
+2026-02-21T11:36:41.733Z - GET /api/employer/dashboard-stats
+❌ Email Service Error: Error: Connection closed
+    at SMTPConnection.<anonymous> (d:\job portal\backend\node_modules\nodemailer\lib\smtp-transport\index.js:360:33)
+    at Object.onceWrapper (node:events:638:28)
+    at SMTPConnection.emit (node:events:524:28)
+    at SMTPConnection._destroy (d:\job portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:899:14)
+    at SMTPConnection._onClose (d:\job portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:868:14)
+    at SMTPConnection._onSocketClose (d:\job portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:197:42)
+    at Object.onceWrapper (node:events:639:26)
+    at TLSSocket.emit (node:events:536:35)
+    at node:net:343:12
+    at TCP.done (node:_tls_wrap:648:7)
+🔥 Socket disconnected: 9JDfkEEkDRGtuWFnAAAM
+🔥 Socket disconnected: MrdjK7P3nh8f8HQkAAAN
+2026-02-21T11:37:07.922Z - GET /api/auth/me
+2026-02-21T11:37:07.974Z - GET /api/auth/me
+2026-02-21T11:37:08.002Z - GET /api/auth/me
+2026-02-21T11:37:08.032Z - GET /api/auth/me
+2026-02-21T11:37:08.295Z - GET /api/chat-module/profile/me
+2026-02-21T11:37:08.304Z - GET /api/companies/my-company
+2026-02-21T11:37:08.340Z - GET /api/companies/my-company
+2026-02-21T11:37:08.352Z - GET /api/chat-module/profile/me
+2026-02-21T11:37:08.367Z - GET /api/companies/my-company
+2026-02-21T11:37:08.395Z - GET /api/chat-module/profile/me
+2026-02-21T11:37:08.396Z - GET /api/chat-module/conversations
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: v9KdSP2RdKu0M_bhAAAS)
+⚡ User authenticated: 698f5f06705927d8c25b3b53 (Socket: y5Gw4LA2-K8nqGrvAAAT)
+[CM] Socket y5Gw4LA2-K8nqGrvAAAT joined room "vimicomapy1"
+2026-02-21T11:37:11.740Z - GET /api/community/feed
+2026-02-21T11:37:11.742Z - GET /api/community
+2026-02-21T11:37:11.777Z - GET /api/community/feed
+2026-02-21T11:37:11.783Z - GET /api/community
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+⚠️ Port 5000 is busy. Trying port 5001...
+✅ Connected to MongoDB Compass
+✅ Server active on port 5000
+✅ Server active on port 5001
+❌ Email Service Error: Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20) {
+  errno: -4077,
+  code: 'ESOCKET',
+  syscall: 'read',
+  command: 'CONN'
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+⚠️ Port 5000 is busy. Trying port 5001...
+✅ Connected to MongoDB Compass
+⚠️ Port 5001 is busy. Trying port 5002...
+✅ Server active on port 5000
+✅ Server active on port 5001
+✅ Server active on port 5002
+✅ Email Service is ready to take our messages
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.2.3] injecting env (19) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+✅ .env file loaded successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+⚠️ Port 5000 is busy. Trying port 5001...
+✅ Connected to MongoDB Compass
+✅ Server active on port 5000
+✅ Server active on port 5001
+✅ Email Service is ready to take our messages

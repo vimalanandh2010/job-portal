@@ -32,3 +32,12 @@ coverage/
 
 vim_key
 vim_key.pub
+
+# Google OAuth & sensitive JSON files — NEVER commit these
+backend/client_secret*.json
+backend/client_secret_*.json
+client_secret*.json
+*client_secret*.json
+*service-account*.json
+*serviceAccount*.json
+*firebase-adminsdk*.json

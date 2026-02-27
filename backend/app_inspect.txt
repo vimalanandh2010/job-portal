@@ -1,0 +1,8 @@
+Recent Applications:
+User: rahul@example.com
+Job: Senior React Developer
+App Resume URL: 
+User Resume URL: 
+Status: applied
+Created: Tue Jan 20 2026 20:05:38 GMT+0530 (India Standard Time)
+-------------------
